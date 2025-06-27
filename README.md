@@ -42,5 +42,11 @@ O objetivo principal do RestaurantRodriguesApp é facilitar o acesso às informa
 4. Rodar o projeto
 
    ```bash
-   npm run dev
+    npx json-server db.json
+   ```
+   
+5. Rodar o projeto
+
+   ```bash
+   npx expo start
    ```
