@@ -9,6 +9,7 @@ Atualmente, o foco está em entregar uma interface fluida para navegação e con
 
 O objetivo principal do RestaurantRodriguesApp é facilitar o acesso às informações do restaurante, oferecendo uma experiência moderna, eficiente e acessível diretamente pelo celular.
 
+![RodiguesApp](https://github.com/user-attachments/assets/5be34162-0ddc-40ad-b5f5-7e67a30f23cb)
 
 
 ## ✨ Recursos
