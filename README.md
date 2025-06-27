@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+# RestaurantRodriguesApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+O RestaurantRodriguesApp é um aplicativo mobile desenvolvido com React Native e estilizado com Tailwind CSS, focado em oferecer uma experiência rápida e intuitiva para clientes de restaurantes.
 
-1. Install dependencies
+O app exibe o cardápio completo do restaurante, incluindo os valores dos pratos e avaliações feitas por outros clientes, permitindo que o usuário explore as opções com facilidade. Uma das funcionalidades já implementadas é o sistema de busca, onde é possível pesquisar pratos específicos de forma prática e rápida.
+
+Atualmente, o foco está em entregar uma interface fluida para navegação e consulta do cardápio. Funcionalidades como sistema de pagamentos e carrinho de compras ainda estão em fase de planejamento e serão implementadas em versões futuras do aplicativo.
+
+O objetivo principal do RestaurantRodriguesApp é facilitar o acesso às informações do restaurante, oferecendo uma experiência moderna, eficiente e acessível diretamente pelo celular.
+
+
+
+## ✨ Recursos
+
+- Design responsivo
+- Animações suaves
+- Navegação intuitiva
+- Carrosséis interativos
+
+## 🛠 Tecnologias
+
+### Principais
+- React Native
+- Expo 
+- React Navigation
+- Tailwind CSS
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/DevGabrielrr/RestaurantRodriguesApp.git
+     ```
+
+3. Atualize o projeto, Em seu terminal e na pasta do projeto
 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Rodar o projeto
 
    ```bash
-   npx expo start
+   npm run dev
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

@@ -1,6 +1,6 @@
+import { useEffect, useState } from 'react';
 import { FlatList } from 'react-native';
-import { useEffect, useState  } from 'react'
-import { RestaurantItem } from './horizontal'
+import { RestaurantItem } from './horizontal';
 
 export interface RestaurantsProps{
   id: string;
@@ -13,7 +13,7 @@ export function Restaurants() {
 
   useEffect(() => {
     async function getFoods(){
-      const response = await fetch("http://192.168.0.12:3000/restaurants")
+      const response = await fetch("http://192.168.1.7:3000/restaurants")
       const data = await response.json()
       setRestaurants(data);
     }

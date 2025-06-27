@@ -1,13 +1,13 @@
-import { Text, View, ScrollView} from "react-native";
-import Constants from 'expo-constants'
+import Constants from 'expo-constants';
+import { ScrollView, View } from "react-native";
 
-import { Header } from "../components/header";
 import { Banner } from "../components/banner";
-import { Search } from "../components/search";
-import { Section } from '../components/section'
-import { TrendingFoods } from "../components/trending";
+import { Header } from "../components/header";
+import { RestaurantVerticalList } from '../components/list';
 import { Restaurants } from "../components/restaurants";
-import { RestaurantVerticalList } from '../components/list'
+import { Search } from "../components/search";
+import { Section } from '../components/section';
+import { TrendingFoods } from "../components/trending";
 
 
 const statusBarHeight = Constants.statusBarHeight;
@@ -28,7 +28,7 @@ export default function Index() {
       </View>
 
       <Section
-        name="Comidas em alta"
+        name="Os mais pedidos"
         label="Veja mais"
         action={ () => console.log("CLICOU NO VEJA MAIS")}
         size="text-2xl"
@@ -36,7 +36,7 @@ export default function Index() {
       <TrendingFoods/>
 
       <Section
-        name="Famosos no DevFood"
+        name="Encontre outras lojas"
         label="Veja todos"
         action={ () => console.log("CLICOU NO Famosos")}
         size="text-xl"
